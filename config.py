@@ -1,4 +1,4 @@
-CSV_FILE_PATH = r"Real estate.csv"
+CSV_FILE_PATH = r"Real_estate.csv"
 
 MODEL_FILE_PATH = r"artifacts/linear_reg.pkl"
 

@@ -31,7 +31,7 @@ def predict_rate():
             
             rate = Real_estate_rate.get_predicted_rate()
 
-            return  render_template("text.html",prediction= rate)
+            return  render_template("text.html",prediction=rate)
            
         else:
             data = request.args.get
@@ -50,7 +50,7 @@ def predict_rate():
 
             rate = Real_estate_rate.get_predicted_rate()
 
-            return  render_template("text.html",prediction= rate)
+            return  render_template("text.html",prediction=rate)
 
     except:
         print(traceback.print_exc())
